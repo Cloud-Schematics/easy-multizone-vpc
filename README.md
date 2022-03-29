@@ -83,4 +83,6 @@ Optionally, a public gateway can be added to each of the three subnets by settin
 
 ## Overriding Variables
 
-This template uses a [vpc module](./ez_vpc/vpc) to create the network architecture. A complete custom network architecture can be created from this template by passing stringified `json` data into the `override_json` variable. For an example of a valid JSON file, see [override-json.json](./override-json.json)
+This template uses a [vpc module](./ez_vpc/vpc) to create the network architecture. A complete custom network architecture can be created from this template by using the `override.json` file and setting the `override` variable to `true`. For an example of a valid JSON file, see [override.json](./override.json). 
+
+For more information about configuring the module see the [vpc module](./ez_vpc/vpc) for a detailed README and a full list of accepted variables.
